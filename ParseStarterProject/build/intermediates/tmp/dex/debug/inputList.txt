@@ -1,0 +1,4 @@
+/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/classes/debug
+/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-c138783f50390406b6b454d9f6d678d6395cc886.jar
+/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.1-275773c65970b7f3586db9831999b75ff633cf06.jar
+/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.1-6eea2c4a6b480466ca5edc0095d4eda576c87a5b.jar
