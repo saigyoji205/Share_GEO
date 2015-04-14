@@ -17,36 +17,53 @@ public final class R {
         public static final int action_button=0x7f050003;
         public static final int edittext_action_login=0x7f050002;
         public static final int edittext_action_signup=0x7f050007;
+        public static final int login_button=0x7f050008;
         public static final int password=0x7f050001;
         public static final int password_again_edit_text=0x7f050006;
         public static final int password_edit_text=0x7f050005;
+        public static final int signup_button=0x7f050009;
         public static final int username=0x7f050000;
         public static final int username_edit_text=0x7f050004;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
         public static final int activity_signup=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int activity_welcome=0x7f030002;
+        public static final int main=0x7f030003;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int error_blank_password=0x7f040001;
-        public static final int error_blank_username=0x7f040002;
-        public static final int error_end=0x7f040003;
-        public static final int error_intro=0x7f040004;
-        public static final int error_join=0x7f040005;
-        public static final int error_mismatched_passwords=0x7f040006;
-        public static final int hello=0x7f040007;
-        public static final int login=0x7f040008;
-        public static final int parse_app_id=0x7f040009;
-        public static final int parse_client_key=0x7f04000a;
-        public static final int progress_login=0x7f04000b;
-        public static final int progress_signup=0x7f04000c;
-        public static final int prompt_password=0x7f04000d;
-        public static final int prompt_password_again=0x7f04000e;
-        public static final int prompt_username=0x7f04000f;
-        public static final int signup=0x7f040010;
-        public static final int title_activity_login=0x7f040011;
-        public static final int title_activity_signup=0x7f040012;
+        public static final int action_settings=0x7f040000;
+        public static final int activity_post_title=0x7f040001;
+        public static final int app_name=0x7f040002;
+        public static final int character_count_placeholder=0x7f040003;
+        public static final int error_blank_password=0x7f040004;
+        public static final int error_blank_username=0x7f040005;
+        public static final int error_end=0x7f040006;
+        public static final int error_intro=0x7f040007;
+        public static final int error_join=0x7f040008;
+        public static final int error_mismatched_passwords=0x7f040009;
+        public static final int hello=0x7f04000a;
+        public static final int login=0x7f04000b;
+        public static final int logout_full=0x7f04000c;
+        public static final int parse=0x7f04000d;
+        public static final int parse_app_id=0x7f04000e;
+        public static final int parse_client_key=0x7f04000f;
+        public static final int post=0x7f040010;
+        public static final int post_out_of_range=0x7f040011;
+        public static final int powered_by=0x7f040012;
+        public static final int progress_login=0x7f040013;
+        public static final int progress_post=0x7f040014;
+        public static final int progress_signup=0x7f040015;
+        public static final int prompt_password=0x7f040016;
+        public static final int prompt_password_again=0x7f040017;
+        public static final int prompt_post=0x7f040018;
+        public static final int prompt_username=0x7f040019;
+        public static final int search_distance=0x7f04001a;
+        public static final int settings_distance_format=0x7f04001b;
+        public static final int signup=0x7f04001c;
+        public static final int slogan=0x7f04001d;
+        public static final int title_activity_login=0x7f04001e;
+        public static final int title_activity_settings=0x7f04001f;
+        public static final int title_activity_signup=0x7f040020;
     }
 }

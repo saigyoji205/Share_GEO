@@ -2,6 +2,7 @@ package com.parse.starter;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -98,7 +99,9 @@ public class LoginActivity extends Activity
 				}
 				else
 				{
-					Toast.makeText(LoginActivity.this, "Successfully", Toast.LENGTH_LONG).show();
+					Intent intent = new Intent(LoginActivity.this,DispatchActivity.class);
+					intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+					startActivity(intent);
 				}
 			}
 		});
