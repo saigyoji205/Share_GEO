@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
+        jar="/Users/miyaharahirokazu/Desktop/Geo_Share/Parse-Starter-Project-1.9.1/ParseStarterProject/libs/ParseCrashReporting-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2bfbcce5ae61bdd10676df8e89710693c1256024">
+        <dex dex="/Users/miyaharahirokazu/Desktop/Geo_Share/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.1-65125f30d79e9e3f8810452d28e68dd33ea9d9fc.jar" />
+    </item>
+    <item
         jar="/Users/miyaharahirokazu/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-c138783f50390406b6b454d9f6d678d6395cc886.jar" />
+        <dex dex="/Users/miyaharahirokazu/Desktop/Geo_Share/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-c138783f50390406b6b454d9f6d678d6395cc886.jar" />
     </item>
     <item
-        jar="/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/libs/ParseCrashReporting-1.9.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2bfbcce5ae61bdd10676df8e89710693c1256024">
-        <dex dex="/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.1-275773c65970b7f3586db9831999b75ff633cf06.jar" />
-    </item>
-    <item
-        jar="/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/libs/Parse-1.9.1.jar"
+        jar="/Users/miyaharahirokazu/Desktop/Geo_Share/Parse-Starter-Project-1.9.1/ParseStarterProject/libs/Parse-1.9.1.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
-        <dex dex="/Users/miyaharahirokazu/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.1-6eea2c4a6b480466ca5edc0095d4eda576c87a5b.jar" />
+        <dex dex="/Users/miyaharahirokazu/Desktop/Geo_Share/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.1-cc21466b6935902935004108c675321c58ec22a9.jar" />
     </item>
 
 </items>

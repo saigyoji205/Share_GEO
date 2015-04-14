@@ -67,7 +67,7 @@ ADDED from AndroidManifest.xml:24:9
 		ADDED from AndroidManifest.xml:25:13
 	android:value
 		ADDED from AndroidManifest.xml:26:13
-activity#com.parse.starter.SignUpActivity
+activity#com.parse.starter.LoginActivity
 ADDED from AndroidManifest.xml:28:9
 	android:label
 		ADDED from AndroidManifest.xml:30:13
