@@ -14,6 +14,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <application
         android:name="com.parse.starter.ParseApplication"
@@ -21,12 +26,28 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDQJQdWVTd4IS-yUktlzGntzvnFFeKGnyY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="@string/parse_app_id" />
         <meta-data
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/parse_client_key" />
 
+        <activity
+            android:name="com.parse.starter.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.parse.starter.LoginActivity"
             android:label="@string/title_activity_login"
@@ -36,13 +57,18 @@
             android:label="@string/title_activity_signup"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.parse.starter.PostActivity"
+            android:label="@string/activity_post_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.parse.starter.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.parse.starter.DispatchActivity"
             android:noHistory="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.parse.starter.WelcomeActivity"
